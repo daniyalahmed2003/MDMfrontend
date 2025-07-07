@@ -14,6 +14,7 @@ import { useLogoutMutation } from "../../redux/api/usersApiSlice";
 import { logout } from "../../redux/features/auth/authSlice";
 import FavoritesCount from "../Products/FavoritesCount";
 import "./Navigation.css";
+import axios from "axios";
 
 const Navigation = () => {
   const { userInfo } = useSelector((state) => state.auth);

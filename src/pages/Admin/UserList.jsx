@@ -8,6 +8,7 @@ import {
   useUpdateUserMutation,
 } from "../../redux/api/usersApiSlice";
 import { toast } from "react-toastify";
+import axios from "axios";
 // import AdminMenu from "./AdminMenu";
 
 const UserList = () => {

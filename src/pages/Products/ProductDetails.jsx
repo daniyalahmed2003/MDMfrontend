@@ -11,6 +11,7 @@ import HeartIcon from "./HeartIcon";
 import Ratings from "./Ratings";
 import ProductTabs from "./ProductTabs";
 import { addToCart } from "../../redux/features/cart/cartSlice";
+import axios from "axios";
 
 const ProductDetails = () => {
   const { id: productId } = useParams();

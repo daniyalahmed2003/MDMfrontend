@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectFavoriteProduct, toggleFavorite } from "../../redux/features/favorites/favoriteSlice";
 import { Link } from "react-router-dom";
 import { FaHeartBroken } from "react-icons/fa";
+import axios from "axios";
 
 const Favorites = () => {
   const dispatch = useDispatch();

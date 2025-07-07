@@ -21,6 +21,8 @@
 
 // export default Modal;
 
+// import axios from "../../utils/axios"; // update path according to file location
+import axios from "axios";
 
 const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;

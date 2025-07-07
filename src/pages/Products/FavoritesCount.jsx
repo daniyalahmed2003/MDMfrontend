@@ -59,6 +59,7 @@
 
 
 import { useSelector } from "react-redux";
+import axios from "axios";
 
 const FavoritesCount = () => {
   const favorites = useSelector((state) => state.favorites);

@@ -16,6 +16,8 @@
 // export default Message;
 
 
+// import axios from "../../utils/axios"; // update path according to file location
+import axios from "axios";
 
 const Message = ({ variant, children }) => {
   const getVariantClass = () => {

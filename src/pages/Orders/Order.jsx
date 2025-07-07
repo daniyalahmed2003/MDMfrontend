@@ -11,6 +11,7 @@ import {
   useGetPaypalClientIdQuery,
   usePayOrderMutation,
 } from "../../redux/api/orderApiSlice";
+import axios from "axios";
 
 const Order = () => {
   const { id: orderId } = useParams();

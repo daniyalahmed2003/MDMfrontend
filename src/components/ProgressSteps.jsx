@@ -39,6 +39,8 @@
 // export default ProgressSteps;
 
 
+// import axios from "../../utils/axios"; // update path according to file location
+import axios from "axios";
 
 const ProgressSteps = ({ step1, step2, step3 }) => {
   return (

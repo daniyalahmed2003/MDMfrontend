@@ -13,6 +13,7 @@ import {
   getFavoritesFromLocalStorage,
   removeFavoriteFromLocalStorage,
 } from "../../Utils/localStorage";
+import axios from "axios";
 
 const HeartIcon = ({ product }) => {
   const dispatch = useDispatch();

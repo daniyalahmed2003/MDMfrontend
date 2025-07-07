@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HeartIcon from "./HeartIcon";
+import axios from "axios";
 
 const Product = ({ product }) => {
   return (

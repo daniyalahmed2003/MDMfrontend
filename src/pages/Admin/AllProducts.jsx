@@ -4,7 +4,7 @@ import { useAllProductsQuery } from "../../redux/api/productApiSlice";
 import AdminMenu from "./AdminMenu";
 import Loader from "../../components/Loader";
 import Message from "../../components/Message";
-
+import axios from "axios";
 const AllProducts = () => {
   const { data: products, isLoading, isError } = useAllProductsQuery();
 

@@ -9,6 +9,7 @@ import {
 } from "../../redux/api/productApiSlice";
 import { useFetchCategoriesQuery } from "../../redux/api/categoryApiSlice";
 import { toast } from "react-toastify";
+import axios from "axios";
 
 const AdminProductUpdate = () => {
   const params = useParams();

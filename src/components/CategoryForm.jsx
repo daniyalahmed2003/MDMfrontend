@@ -1,3 +1,6 @@
+// import axios from "../../utils/axios"; // update path according to file location
+import axios from "axios";
+
 const CategoryForm = ({
   value,
   setValue,

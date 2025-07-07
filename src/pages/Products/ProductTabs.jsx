@@ -4,6 +4,7 @@ import Ratings from "./Ratings";
 import { useGetTopProductsQuery } from "../../redux/api/productApiSlice";
 import SmallProduct from "./SmallProduct";
 import Loader from "../../components/Loader";
+import axios from "axios";
 
 const ProductTabs = ({
   loadingProductReview,

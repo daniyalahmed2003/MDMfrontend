@@ -1,4 +1,5 @@
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
+import axios from "axios";
 
 const Ratings = ({ value, text, color = "text-yellow-500" }) => {
   const fullStars = Math.floor(value);

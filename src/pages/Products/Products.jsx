@@ -20,6 +20,7 @@ import {
 import moment from "moment";
 import ProductTabs from "./Tabs";
 import HeartIcon from "./HeartIcon";
+import axios from "axios";
 
 const Product = () => {
   const { id: productId } = useParams();

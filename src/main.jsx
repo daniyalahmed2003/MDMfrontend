@@ -6,6 +6,8 @@ import store from "./redux/store";
 import { Route, RouterProvider, createRoutesFromElements } from "react-router";
 import { createBrowserRouter } from "react-router-dom";
 
+import axios from "axios";
+
 import PrivateRoute from "./components/PrivateRoute";
 
 // Auth

@@ -2,6 +2,9 @@ import { useGetTopProductsQuery } from "../redux/api/productApiSlice";
 import Loader from "./Loader";
 import SmallProduct from "../pages/Products/SmallProduct";
 import ProductCarousel from "../pages/Products/ProductCarousel";
+import axios from "axios";
+// import axios from "../../utils/axios"; // update path according to file location
+
 
 const Header = () => {
   const { data, isLoading, error } = useGetTopProductsQuery();

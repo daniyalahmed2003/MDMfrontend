@@ -4,6 +4,7 @@ import Loader from "../components/Loader";
 import Message from "../components/Message";
 import Header from "../components/Header";
 import Product from "./Products/Product";
+import axios from "axios";
 
 const Home = () => {
   const { keyword } = useParams();

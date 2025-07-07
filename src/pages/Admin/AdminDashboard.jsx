@@ -9,6 +9,9 @@ import { useState, useEffect } from "react";
 import AdminMenu from "./AdminMenu";
 import OrderList from "./OrderList";
 import Loader from "../../components/Loader";
+import axios from "axios";
+// import axios from "../../utils/axios"; // update path according to file location
+
 
 const AdminDashboard = () => {
   const { data: sales, isLoading } = useGetTotalSalesQuery();
